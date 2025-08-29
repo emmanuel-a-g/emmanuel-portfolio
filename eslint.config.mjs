@@ -1,6 +1,6 @@
-import { dirname } from 'path';
-import { fileURLToPath } from 'url';
-import { FlatCompat } from '@eslint/eslintrc';
+import { dirname } from "path";
+import { fileURLToPath } from "url";
+import { FlatCompat } from "@eslint/eslintrc";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -11,13 +11,19 @@ const compat = new FlatCompat({
 
 const eslintConfig = [
   ...compat.extends(
-    'next/core-web-vitals',
-    'next/typescript',
-    'plugin:prettier/recommended'
+    "next/core-web-vitals",
+    "next/typescript",
+    "plugin:prettier/recommended"
   ),
   {
+    parser: "@typescript-eslint/parser",
+    parserOptions: {
+      ecmaVersion: 2024,
+      sourceType: "module",
+    },
+    plugins: ["@typescript-eslint"],
     rules: {
-      'react/no-unescaped-entities': 'off',
+      "react/no-unescaped-entities": "off",
     },
   },
 ];
