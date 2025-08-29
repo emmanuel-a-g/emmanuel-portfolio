@@ -21,12 +21,7 @@ export function AppsSection() {
         "Happy Belly website is a location-based deals app built with Next.js. Features include user authentication, QR code redemption, and real-time deal expiration. Currently live in El Paso, TX.",
       image:
         "https://res.cloudinary.com/milito/image/upload/v1747969923/mypage/happybellyscreen.png",
-      technologies: [
-        "React Native CLI",
-        "Firebase",
-        "Google Maps",
-        "Javascript",
-      ],
+      technologies: ["Next.js", "Firebase", "Google Maps", "Javascript"],
       liveUrl: "https://happybelly.app",
       githubUrl: "https://github.com/emmanuel-a-g",
     },
@@ -49,6 +44,22 @@ export function AppsSection() {
       technologies: ["Vue.js", "Javascript", "CSS", "Netlify", "Firebase"],
       liveUrl: "https://main--moviesiteclone.netlify.app/login",
       githubUrl: "https://github.com/emmanuel-a-g/netflix-clone",
+    },
+    {
+      title: "Happy Belly",
+      description:
+        "Available on the App Store and Play Store, Happy Belly – Local Deals helps users discover the best food deals nearby. Built with a full-featured, user-focused experience, ready to expand to new cities.",
+      image:
+        "https://res.cloudinary.com/milito/image/upload/v1756431970/mypage/happybellyiosscreen_g8qev7.png",
+      technologies: [
+        "React Native CLI",
+        "Firebase",
+        "Google Maps SDK",
+        "Javascript",
+      ],
+      liveUrl:
+        "https://apps.apple.com/us/app/happy-belly-local-deals/id6747798295",
+      githubUrl: "https://github.com/emmanuel-a-g",
     },
     {
       title: "DAE Woodshop",
@@ -74,22 +85,6 @@ export function AppsSection() {
         "Firebase",
       ],
       liveUrl: "https://cruzaya.com",
-      githubUrl: "https://github.com/emmanuel-a-g",
-    },
-    {
-      title: "Happy Belly App",
-      description:
-        "Available on the App Store and Play Store, Happy Belly – Local Deals helps users discover the best food deals nearby. Built with a full-featured, user-focused experience, ready to expand to new cities.",
-      image:
-        "https://res.cloudinary.com/milito/image/upload/v1756431970/mypage/happybellyiosscreen_g8qev7.png",
-      technologies: [
-        "React Native CLI",
-        "Firebase",
-        "Google Maps",
-        "Javascript",
-      ],
-      liveUrl:
-        "https://apps.apple.com/us/app/happy-belly-local-deals/id6747798295",
       githubUrl: "https://github.com/emmanuel-a-g",
     },
   ];
