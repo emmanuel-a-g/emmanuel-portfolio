@@ -16,9 +16,9 @@ import { LINKS } from "@/lib/constants";
 export function AppsSection() {
   const projects = [
     {
-      title: "Happy Belly",
+      title: "Happy Belly Web",
       description:
-        "Happy Belly is a location-based deals app. Built with Next.js, includes features like user authentication, QR code redemption, real-time deal expiration. Currently live for El Paso, TX.",
+        "Happy Belly website is a location-based deals app built with Next.js. Features include user authentication, QR code redemption, and real-time deal expiration. Currently live in El Paso, TX.",
       image:
         "https://res.cloudinary.com/milito/image/upload/v1747969923/mypage/happybellyscreen.png",
       technologies: [
@@ -33,7 +33,7 @@ export function AppsSection() {
     {
       title: "Addmi E-Commerce & POS",
       description:
-        "I worked full stack at Addmi, building features for their e-commerce platform and POS system. I contributed to both frontend and backend, integrated APIs, and collaborated with design to improve the user experience.",
+        "Full-stack developer at Addmi, contributing to their e-commerce platform and POS system. Built and enhanced features across frontend and backend, integrated APIs, and collaborated closely with design to elevate the user experience.",
       image:
         "https://res.cloudinary.com/milito/image/upload/v1750830438/mypage/addmicafe_d4sznm.png",
       technologies: ["Vue.js", "Node.js", "GraphQL", "Nuxt.js", "Redux"],
@@ -43,7 +43,7 @@ export function AppsSection() {
     {
       title: "Netflix Clone",
       description:
-        "Netflix is one of the most popular streaming services ever, and this app mirrors the same experience. Build with Vue.js and Javascript, secured with Firebase Auth.",
+        "Built entirely from scratch with vanilla CSS, this Netflix clone replicates the authentic experience. Developed with Vue.js and JavaScript, and secured with Firebase Authentication.",
       image:
         "https://res.cloudinary.com/milito/image/upload/v1663637768/mypage/netflix_y57pei.png",
       technologies: ["Vue.js", "Javascript", "CSS", "Netlify", "Firebase"],
@@ -53,7 +53,7 @@ export function AppsSection() {
     {
       title: "DAE Woodshop",
       description:
-        "DAE is a workshop that especializes in wood work located in Mexico City. This landing page is the first thing users see before buying a product.",
+        "Landing page for DAE, a woodworking workshop in Mexico City. Designed to showcase their craft and create a smooth first impression for potential customers.",
       image:
         "https://res.cloudinary.com/milito/image/upload/v1663637627/mypage/daeMin_pnq2wk.png",
       technologies: ["Next.js", "Material-UI", "Vercel", "Vanilla CSS"],
@@ -63,7 +63,7 @@ export function AppsSection() {
     {
       title: "Cruza Ya: Upcoming Mobile App",
       description:
-        "Real-time border crossing updates, a new and upcoming app for daily usage for the busy traveler.",
+        "Cruza Ya provides real-time border crossing updates—a must-have app for busy travelers. Currently in active development.",
       image:
         "https://res.cloudinary.com/milito/image/upload/v1756422958/mypage/cruzayawebsitescreenshot.png",
       technologies: [
@@ -79,7 +79,7 @@ export function AppsSection() {
     {
       title: "Happy Belly App",
       description:
-        "Available both on App Store and Play Store, Happy Belly – Local Deals will soon be in your city.",
+        "Available on the App Store and Play Store, Happy Belly – Local Deals helps users discover the best food deals nearby. Built with a full-featured, user-focused experience, ready to expand to new cities.",
       image:
         "https://res.cloudinary.com/milito/image/upload/v1756431970/mypage/happybellyiosscreen_g8qev7.png",
       technologies: [
