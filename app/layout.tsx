@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Emmanuel Garcia - Full Stack Developer",
   description:
-    "Professional portfolio of Emmanuel Garcia, a full stack software developer specializing in modern web technologies.",
+    "Professional portfolio of Emmanuel Garcia, a full-stack web developer from El Paso, TX, specializing in modern web technologies like React, Vue, Next.js, and Node.js. Open to new opportunities",
   keywords: [
     "Emmanuel Garcia",
     "El Paso, TX",
@@ -42,11 +42,11 @@ export const metadata: Metadata = {
     url: "https://emmanuelgarcia.dev",
     title: "Emmanuel Garcia - Full Stack Developer",
     description:
-      "Professional portfolio of Emmanuel Garcia, a full stack software developer.",
+      "Professional portfolio of Emmanuel Garcia, a full stack software developer from El Paso, TX.",
     siteName: "Emmanuel Garcia Portfolio",
     images: [
       {
-        url: "https://res.cloudinary.com/milito/image/upload/v1663637865/mypage/hook300_jwlftp.jpg",
+        url: "/emmanuel.png",
         width: 270,
         height: 316,
         alt: "A picture of Emmanuel",
@@ -57,10 +57,8 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Emmanuel Garcia - Full Stack Developer",
     description:
-      "Professional portfolio of Emmanuel Garcia, a full stack software developer.",
-    images: [
-      "https://res.cloudinary.com/milito/image/upload/v1663637865/mypage/hook300_jwlftp.jpg",
-    ],
+      "Professional portfolio of Emmanuel Garcia, a full stack software developer from El Paso, TX.",
+    images: ["/emmanuel.png"],
   },
 };
 
