@@ -67,10 +67,10 @@ export function AboutSection() {
               <CardContent className="p-0">
                 <div className="flex items-center justify-center">
                   <Image
-                    src="https://res.cloudinary.com/milito/image/upload/v1663637865/mypage/hook300_jwlftp.jpg"
-                    alt="Emmanuel's workspace"
-                    width={270}
-                    height={316}
+                    src="/emmanuel-high.jpg"
+                    alt="Emmanuel Garcia"
+                    width={1200}
+                    height={1200}
                     className="rounded-md object-cover"
                   />
                 </div>
