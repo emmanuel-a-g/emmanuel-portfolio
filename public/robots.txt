@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://emmanuelgarcia.dev
+
+# Sitemaps
+Sitemap: https://emmanuelgarcia.dev/sitemap.xml
