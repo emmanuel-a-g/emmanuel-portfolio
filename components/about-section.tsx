@@ -71,7 +71,7 @@ export function AboutSection() {
                     alt="Emmanuel Garcia"
                     width={1200}
                     height={1200}
-                    className="rounded-md object-cover"
+                    className="h-auto max-w-full object-cover shadow-lg"
                   />
                 </div>
               </CardContent>

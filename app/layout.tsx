@@ -17,6 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://emmanuelgarcia.dev"),
   title: "Emmanuel Garcia - Full Stack Developer",
   description:
     "Professional portfolio of Emmanuel Garcia, a full-stack web developer from El Paso, TX, specializing in modern web technologies like React, Vue, Next.js, and Node.js. Open to new opportunities",
