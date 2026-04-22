@@ -16,6 +16,24 @@ import { LINKS } from "@/lib/constants";
 export function AppsSection() {
   const projects = [
     {
+      title: "Rene Mey International Foundation Dashboard",
+      description: "",
+      image:
+        "https://res.cloudinary.com/milito/image/upload/v1776824009/mypage/renemey_dashboard_ygxg65.png",
+      technologies: ["Next.js", "Firebase", "Google Maps", "Javascript"],
+      liveUrl: "https://renemeyportal.org",
+      githubUrl: "https://github.com/emmanuel-a-g",
+    },
+    // {
+    //   title: "Mobile App: Rene Mey International Foundation",
+    //   description: "",
+    //   image:
+    //     "https://res.cloudinary.com/milito/image/upload/v1776824009/mypage/renemey_dashboard_ygxg65.png",
+    //   technologies: ["Next.js", "Firebase", "Google Maps", "Javascript"],
+    //   liveUrl: "https://renemeyportal.org",
+    //   githubUrl: "https://github.com/emmanuel-a-g",
+    // },
+    {
       title: "Happy Belly Web",
       description:
         "Happy Belly website is a location-based deals app built with Next.js. Features include user authentication, QR code redemption, and real-time deal expiration. Currently live in El Paso, TX.",
