@@ -54,7 +54,7 @@ export function AppsSection() {
         "Typescript",
         "Sentry.io",
       ],
-      liveUrl: "https://renemeyportal.org",
+      liveUrl: "https://play.google.com/store/apps/details?id=com.renemey",
       githubUrl: "https://github.com/emmanuel-a-g",
     },
     {
