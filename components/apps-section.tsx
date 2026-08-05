@@ -16,23 +16,47 @@ import { LINKS } from "@/lib/constants";
 export function AppsSection() {
   const projects = [
     {
+      title: "Realtor Dashboard CRM + CMS Page",
+      description:
+        "Built a custom real estate operations platform with Next.js, Payload for CMS, Supabase, role-based admin workflows, transaction tracking, form-engine tools, HighLevel synchronization, and Dotloop integration foundations.",
+      image:
+        "https://res.cloudinary.com/milito/image/upload/v1785950577/mypage/Screenshot_2026-08-05_at_11.20.29_AM_hul2ir.png",
+      technologies: [
+        "Next.js",
+        "Payload",
+        "High Level",
+        "Dotloop",
+        "Typescript",
+      ],
+      liveUrl: "https://callmereg.com",
+      githubUrl: "https://github.com/emmanuel-a-g",
+    },
+    {
       title: "Rene Mey International Foundation Dashboard",
-      description: "",
+      description:
+        "Developed an internal administration dashboard for the René Mey Foundation to manage users, instructors, events, multimedia content, and workshop/therapy reporting across the organization.",
       image:
         "https://res.cloudinary.com/milito/image/upload/v1776824009/mypage/renemey_dashboard_ygxg65.png",
-      technologies: ["Next.js", "Firebase", "Google Maps", "Javascript"],
+      technologies: ["Next.js", "Firebase", "Google Maps", "Typescript"],
       liveUrl: "https://renemeyportal.org",
       githubUrl: "https://github.com/emmanuel-a-g",
     },
-    // {
-    //   title: "Mobile App: Rene Mey International Foundation",
-    //   description: "",
-    //   image:
-    //     "https://res.cloudinary.com/milito/image/upload/v1776824009/mypage/renemey_dashboard_ygxg65.png",
-    //   technologies: ["Next.js", "Firebase", "Google Maps", "Javascript"],
-    //   liveUrl: "https://renemeyportal.org",
-    //   githubUrl: "https://github.com/emmanuel-a-g",
-    // },
+    {
+      title: "Mobile App: René Mey Foundation",
+      description:
+        "Developed the official React Native cross-platform mobile application for the René Mey Foundation, providing members with access to events, multimedia content, organization updates, and role-based features for instructors to submit workshop and therapy reports.",
+      image:
+        "https://res.cloudinary.com/milito/image/upload/v1785950960/mypage/Screenshot_2026-08-05_at_11.28.30_AM_vsiqwa.png",
+      technologies: [
+        "React Native",
+        "Firebase",
+        "Google Maps",
+        "Typescript",
+        "Sentry.io",
+      ],
+      liveUrl: "https://renemeyportal.org",
+      githubUrl: "https://github.com/emmanuel-a-g",
+    },
     {
       title: "Happy Belly Web",
       description:
@@ -102,7 +126,7 @@ export function AppsSection() {
         "Nativewind",
         "Firebase",
       ],
-      liveUrl: "https://cruzaya.com",
+      liveUrl: "https://cruzayaweb.vercel.app/",
       githubUrl: "https://github.com/emmanuel-a-g",
     },
   ];
