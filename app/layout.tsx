@@ -47,10 +47,10 @@ export const metadata: Metadata = {
     siteName: "Emmanuel Garcia Portfolio",
     images: [
       {
-        url: "/emmanuel.png",
-        width: 270,
-        height: 316,
-        alt: "A picture of Emmanuel",
+        url: "/opengraph-image.png",
+        width: 1200,
+        height: 1200,
+        alt: "Emmanuel Garcia — Full Stack Developer",
       },
     ],
   },
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     title: "Emmanuel Garcia - Full Stack Developer",
     description:
       "Professional portfolio of Emmanuel Garcia, a full stack software developer from El Paso, TX.",
-    images: ["/emmanuel.png"],
+    images: ["/opengraph-image.png"],
   },
 };
 
