@@ -32,13 +32,19 @@ export function AppsSection() {
       githubUrl: "https://github.com/emmanuel-a-g",
     },
     {
-      title: "Rene Mey International Foundation Dashboard",
+      title: "Happy Belly",
       description:
-        "Developed an internal administration dashboard for the René Mey Foundation to manage users, instructors, events, multimedia content, and workshop/therapy reporting across the organization.",
+        "Available on the App Store and Play Store, Happy Belly – Local Deals helps users discover the best food deals nearby. Built with a full-featured, user-focused experience, ready to expand to new cities.",
       image:
-        "https://res.cloudinary.com/milito/image/upload/v1776824009/mypage/renemey_dashboard_ygxg65.png",
-      technologies: ["Next.js", "Firebase", "Google Maps", "Typescript"],
-      liveUrl: "https://renemeyportal.org",
+        "https://res.cloudinary.com/milito/image/upload/v1756431970/mypage/happybellyiosscreen_g8qev7.png",
+      technologies: [
+        "React Native CLI",
+        "Firebase",
+        "Google Maps SDK",
+        "Javascript",
+      ],
+      liveUrl:
+        "https://apps.apple.com/us/app/happy-belly-local-deals/id6747798295",
       githubUrl: "https://github.com/emmanuel-a-g",
     },
     {
@@ -88,19 +94,13 @@ export function AppsSection() {
       githubUrl: "https://github.com/emmanuel-a-g/netflix-clone",
     },
     {
-      title: "Happy Belly",
+      title: "Rene Mey International Foundation Dashboard",
       description:
-        "Available on the App Store and Play Store, Happy Belly – Local Deals helps users discover the best food deals nearby. Built with a full-featured, user-focused experience, ready to expand to new cities.",
+        "Developed an internal administration dashboard for the René Mey Foundation to manage users, instructors, events, multimedia content, and workshop/therapy reporting across the organization.",
       image:
-        "https://res.cloudinary.com/milito/image/upload/v1756431970/mypage/happybellyiosscreen_g8qev7.png",
-      technologies: [
-        "React Native CLI",
-        "Firebase",
-        "Google Maps SDK",
-        "Javascript",
-      ],
-      liveUrl:
-        "https://apps.apple.com/us/app/happy-belly-local-deals/id6747798295",
+        "https://res.cloudinary.com/milito/image/upload/v1776824009/mypage/renemey_dashboard_ygxg65.png",
+      technologies: ["Next.js", "Firebase", "Google Maps", "Typescript"],
+      liveUrl: "https://renemeyportal.org",
       githubUrl: "https://github.com/emmanuel-a-g",
     },
     {
